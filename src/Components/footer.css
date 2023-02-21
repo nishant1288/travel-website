@@ -1,0 +1,65 @@
+.footer {
+    margin-top: 3rem;
+    background-color: black;
+    color: white;
+}
+
+.top,
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.top .icons {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.top .icons .fa-instagram {
+
+    color: #FD1D1D;
+}
+
+.top .icons .fa-facebook {
+    color: #4267B2;
+}
+
+
+.top .icons .fa-twitter {
+    color: #1DA1F2
+}
+
+@media screen and (max-width : 700px) {
+
+    .top {
+        width: 100%;
+      
+    }
+
+    .top {
+        flex-direction: column;
+    }
+
+    .top .icons {
+        width: 100%;
+    }
+
+    .top .logo-text {
+       
+        width: 80%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .bottom .bottom-footer {
+        margin-top: 1rem;
+    }
+}

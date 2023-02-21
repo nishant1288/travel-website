@@ -1,0 +1,14 @@
+.about {
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+    
+}
+
+.about h2 {
+    font-size: 2rem;
+}
+
+.about p {
+    font-weight: 700;
+}
